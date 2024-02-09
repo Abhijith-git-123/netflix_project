@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        
+            overflow-y: auto;
+                            
+        }
+
+        /* over all section stile */
+        .section{
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            height: 200vh;
+        
+        }
+
+        /* ...section1 style... */
+
+        #section1{
+            background-image: url(../bg.jpg);
+            color:rgb(220, 97, 49) ;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 60px;
+            font-size: 40px;
+            padding-left: 100px;
+            padding-top: 20px;
+            border: 50px solid white
+            
+        }
+
+         /* ...section1 button... */
+         
+         #hmbtn{
+            height: 70px;
+            width: 200px;
+            border-radius: 10px;
+            font-size: 30px;
+            color:white;
+            background-color: rgb(220, 97, 49) ;
+            float: right;
+            margin-right: 150px;
+            margin-top: -130px;
+
+         }
+
+         /* ...section1 content... */
+        #sec1para{
+            text-align: center;
+            font-style: inherit;
+            font-size: 120px;
+            color: white;
+            font-weight: bolder;
+            
+        }
+        #sec1para2 {
+            text-align: center;
+            font-style: normal;
+            color: aliceblue;
+            font-size:38px;
+            font-weight: lighter;
+            padding-bottom: 500px;
+            
+        }
+
+        #mail #sec1btn{
+            float: right;
+            
+        }
+
+        #mail{
+            width: 200px;
+            height: 50px;
+        
+        }
+        #sec1btn{
+            width: 300px;
+            height: 59px;
+            margin-left: -15px;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+            font-size: large;
+            margin-bottom: 100px;
+            
+        }
+        #box1{
+            height: 50px;
+            width: 100px;
+            background-color: white;
+            border: 1px solid white;
+
+        }
+        .mailbtn{
+            border: 0px;
+            padding-left: 550px;
+            /* padding-bottom: 500px; */
+            margin-top: -400px;
+            
+        }
+    
+
+        /* ...section2 content.. */
+
+        #section2{
+            background-color: black;
+            border: 50px solid white;
+
+        }
+        #sec2img1{
+            height: 550px;
+            padding-left: 50px;
+            padding-top: 150px;
+            
+        }
+
+        #sec2para{
+            border: 0px;
+            color: white;
+            font-size: 100px;
+            text-align: left;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: bold;
+            padding-left: 950px;
+            margin-top: -600px;
+        }
+
+        #sec2para2{
+            border: 0px;
+            color: white;
+            font-size: 50px;
+            padding-left: 950px;
+            /* padding-top: -100px; */
+            margin-top: -80px;
+
+        }
+
+        .line1{
+            height: 10px;
+            background-color: grey;
+        }
+        .sec2img2{
+            
+            padding-left: 1000px;
+            height: 400px;
+            width: 500px;
+        }
+        .sec2para3{
+            border: 0;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: bold;
+            text-align: left;
+            color: white;
+            font-size: 100px;
+            margin-top: -350px;
+            margin-left: 200px;
+            
+
+
+        }
+        .sec2para4{
+            border: 0px;
+            color: white;
+            font-size: 50px;
+            margin-left: 200px;
+            margin-top: -80px;
+        }
+
+
+
+
+
+/* ..... section 3...... */
+        #section3{
+            background-color:black;
+            border: 50px solid white;
+            height: 250vh;
+        }
+        #sec3img1{
+            /* border: 0px; */
+            
+            padding-top: 150px;
+            padding-left: 130px;
+        }
+
+        #sec3para1{
+            border: 0px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: bold;
+            font-size: 100px;
+            color: white;
+            padding-left: 900px;
+            margin-top: -550px;
+            
+        }
+        #sec3para2{
+            border: 0px;
+            color: white;
+            font-size: 50px;
+            padding-left: 900px;
+            margin-top: -50px;
+
+        }
+        #line2{
+            height: 10px;
+            background-color: grey;
+
+        }
+        #sec3para3{
+            border: 0px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: bold;
+            font-size: 100px;
+            color: white;
+            padding-left: 200px;
+            margin-top: 25px;
+
+        }
+        #sec3para4{
+            border: 0px;
+            color: white;
+            font-size: 50px;
+            padding-left: 200px;
+            margin-top: -50px;
+        }
+
+        #sec3img2{
+            border: 0px;
+            padding-left: 1000px;
+            margin-top: -800px        
+        }
+
+        #sec3para5{
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: bold;
+            font-size: 100px;
+            color: white;
+            text-align: center;
+
+        }
+
+        #Questions{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 40%;
+            align-items: center;
+        }
+
+        #Questions li{
+            padding: 20px 30px;
+            margin: 5px;
+            font-size: 1.6rem;
+            background-color: #303030;
+            color: white;
+            text-align: left;
+            width: 50%;
+            height: 28px;
+        }
+
+/* ...section4...... */
+        #section4{
+            background-color:black;
+            border: 50px solid white;
+            height: 250vh;
+            
+        }
+
+        .sec4para1{
+            /* border: 0px; */
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            padding-top: 30px;
+
+        }
+
+        .sec4mail{
+            border: 0px;
+            height: 70px;
+            width: 1000px;
+            margin-top: 100px;
+        }
+
+        .sec4btn{
+            border: 0px;
+            color: white;
+            background-color: red;
+            /* font-size: 50px; */
+            height: 80px;
+            width: 500px;
+            font-size: 50px;
+            padding-top: 30px;
+            text-align: center;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div id="section1" class="section">
+        <h1>NETFLIX</h1>
+        <button id="hmbtn">Sign In</button>
+        <p id="sec1para">Unlimited <br>movies, TV <br>shows and <br>more.</p>
+        <p id="sec1para2">All of Netflix, starting at just ₹ 199. <br><br>Ready to watch? Enter your email to create or <br>restart your membership.</p>
+        <div class="mailbtn">
+        <input type="email" name="" id="mail" placeholder="email address.">
+        <button id="sec1btn">GET STARTED></button>
+        </div>
+        <!-- <div id="box1">jhwejd</div> -->
+        
+    </div>
+    <div id="section2" class="section">
+        <img src="../sec2kids.jpg" alt="" id="sec2img1">
+        <p id="sec2para">Create <br>profiles for <br>kids.</p>
+        <p id="sec2para2">Send kids on adventures <br>with their favourite <br>characters in a space made <br>just for them—free with <br>your membership.</p><br> <br>
+        <hr class="line1"><br><br>
+        <div class="sec2img2">
+        <img src="../sec2tv.jpg" alt="" >
+        <!-- <video controls autoplay><source src="../sec2tvvid.mp4" type="video/mp4"></video> -->
+        
+        </div>
+        <p class="sec2para3">Enjoy on your <br>TV.</p>
+        <p class="sec2para4">Watch on smart TVs, <br>PlayStation, Xbox, <br>Chromecast, Apple TV, Blu- <br>ray players and more.</p>
+
+        
+    </div>
+    <div id="section3" class="section">
+        <img src="../sec3img1.jpg" alt="" id="sec3img1">
+        <p id="sec3para1">Download <br>your shows <br>to watch <br>offline.</p>
+        <p id="sec3para2">Save your favourites easily <br>and always have something <br>to watch.</p> <br>
+        <hr id="line2"><br>
+        <p id="sec3para3">Watch <br>everywhere.</p>
+        <p id="sec3para4">Stream unlimited movies <br>and TV shows on your <br>phone, tablet, laptop, and <br>TV.</p>
+        <img src="../sec3img2.jpg" alt="" id="sec3img2">
+        <p id="sec3para5">Frequently Asked Questions</p>
+        <ul id="Questions">
+            <li>What is Netflix?</li> <br>
+            <li>How much does Netflix cost?</li> <br>
+            <li>Where can I watch?</li> <br>
+            <li>How do I cancel?</li> <br>
+            <li>What can I watch on Netflix?</li> <br>
+            <li>Is Netflix good for kids?</li>
+
+
+        </ul>
+        </div>
+    <div id="section4" class="section">
+        <p class="sec4para1">Ready to watch? Enter your email to create or restart your membership.</p>
+        <input type="email" placeholder="Email Address" class="sec4mail">
+        <button  class="sec4btn">GET STARTED></button>
+        
+    </div>
+    
+</body> 
+</html>
